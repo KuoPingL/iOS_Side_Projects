@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="kX7-Nv-FVb">
+            <objects>
+                <navigationController storyboardIdentifier="DengueListNVC" id="wET-qz-P3i" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="85S-tO-Zw2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="k7f-xH-lsy" kind="relationship" relationship="rootViewController" id="SgZ-C4-lTk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3I-GE-6ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="524"/>
+        </scene>
+        <!--Dengue List View Controller-->
+        <scene sceneID="oXN-qc-rvs">
+            <objects>
+                <viewController storyboardIdentifier="DengueFeverDataList" id="k7f-xH-lsy" customClass="DengueListViewController" customModule="Dengue_Fever" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="msz-rm-3oD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GN2-Pl-ZUC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="LkV-cP-RFz">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LkV-cP-RFz" id="X48-fq-q5y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VYT-4Z-dlE" firstAttribute="trailing" secondItem="GN2-Pl-ZUC" secondAttribute="trailing" id="5Kr-7L-7Pt"/>
+                            <constraint firstItem="VYT-4Z-dlE" firstAttribute="bottom" secondItem="GN2-Pl-ZUC" secondAttribute="bottom" id="6OH-fU-aZa"/>
+                            <constraint firstItem="GN2-Pl-ZUC" firstAttribute="leading" secondItem="VYT-4Z-dlE" secondAttribute="leading" id="6YM-AB-ck1"/>
+                            <constraint firstItem="GN2-Pl-ZUC" firstAttribute="top" secondItem="VYT-4Z-dlE" secondAttribute="top" id="9Kz-Tq-AqR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VYT-4Z-dlE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c6m-BF-frs"/>
+                    <connections>
+                        <outlet property="tableView" destination="GN2-Pl-ZUC" id="At8-je-wgy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hB1-j6-a7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912.79999999999995" y="523.98800599700155"/>
+        </scene>
+    </scenes>
+</document>

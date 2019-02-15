@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5ED2BD2089B4E000F21D35 /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED2BC2089B4E000F21D35 /* RefreshController.swift */; };
+		BF5ED2BF2089B62900F21D35 /* RefreshContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED2BE2089B62900F21D35 /* RefreshContent.xib */; };
+		BF734A332085A8CA003CABDA /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A322085A8CA003CABDA /* AnnotationView.swift */; };
+		BF734A352085AFE0003CABDA /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A342085AFE0003CABDA /* JSON.swift */; };
+		BF734A372085EC7D003CABDA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A362085EC7D003CABDA /* ColorExtension.swift */; };
+		BF734A3920862100003CABDA /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A3820862100003CABDA /* AlertExtension.swift */; };
+		BF734A3B20862FD9003CABDA /* TableViewAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A3A20862FD9003CABDA /* TableViewAlert.swift */; };
+		BF734A3F20865898003CABDA /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A3E20865898003CABDA /* Button.swift */; };
+		BF734A4220865A78003CABDA /* TableData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF734A4020865A78003CABDA /* TableData.storyboard */; };
+		BF734A4420865A9D003CABDA /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A4320865A9D003CABDA /* StoryboardExtension.swift */; };
+		BF734A4620865CD6003CABDA /* DengueListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF734A4520865CD6003CABDA /* DengueListHeaderView.xib */; };
+		BF734A4820865FFB003CABDA /* ViewsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A4720865FFB003CABDA /* ViewsExtension.swift */; };
+		BF734A4A2086611C003CABDA /* DengueListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A492086611C003CABDA /* DengueListHeaderView.swift */; };
+		BF734A4C208663CC003CABDA /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A4B208663CC003CABDA /* ViewControllerExtension.swift */; };
+		BF734A4E20866806003CABDA /* DengueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A4D20866806003CABDA /* DengueListViewController.swift */; };
+		BF734A5120866E16003CABDA /* DengueListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF734A5020866E16003CABDA /* DengueListDataSource.swift */; };
+		BF76D0D320848274001CE7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0D220848274001CE7A5 /* AppDelegate.swift */; };
+		BF76D0D820848274001CE7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76D0D620848274001CE7A5 /* Main.storyboard */; };
+		BF76D0DA20848274001CE7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF76D0D920848274001CE7A5 /* Assets.xcassets */; };
+		BF76D0DD20848274001CE7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76D0DB20848274001CE7A5 /* LaunchScreen.storyboard */; };
+		BF76D0ED2084920A001CE7A5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0EC2084920A001CE7A5 /* NetworkManager.swift */; };
+		BF76D0EF2084A72D001CE7A5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0EE2084A72D001CE7A5 /* StringExtension.swift */; };
+		BF76D0F12084A9E8001CE7A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0F02084A9E8001CE7A5 /* ViewController.swift */; };
+		BF76D0F32084AB44001CE7A5 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0F22084AB44001CE7A5 /* NotificationExtension.swift */; };
+		BF76D0F62084ADAC001CE7A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF76D0F52084AD98001CE7A5 /* MapKit.framework */; };
+		BF76D0F82084B031001CE7A5 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0F72084B031001CE7A5 /* Annotation.swift */; };
+		BF76D0FA2084DE81001CE7A5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76D0F92084DE81001CE7A5 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF5ED2BC2089B4E000F21D35 /* RefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshController.swift; sourceTree = "<group>"; };
+		BF5ED2BE2089B62900F21D35 /* RefreshContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefreshContent.xib; sourceTree = "<group>"; };
+		BF734A322085A8CA003CABDA /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		BF734A342085AFE0003CABDA /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		BF734A362085EC7D003CABDA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BF734A3820862100003CABDA /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		BF734A3A20862FD9003CABDA /* TableViewAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAlert.swift; sourceTree = "<group>"; };
+		BF734A3E20865898003CABDA /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		BF734A4120865A78003CABDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Dengue Fever/Base.lproj/TableData.storyboard"; sourceTree = "<group>"; };
+		BF734A4320865A9D003CABDA /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		BF734A4520865CD6003CABDA /* DengueListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DengueListHeaderView.xib; sourceTree = "<group>"; };
+		BF734A4720865FFB003CABDA /* ViewsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtension.swift; sourceTree = "<group>"; };
+		BF734A492086611C003CABDA /* DengueListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengueListHeaderView.swift; sourceTree = "<group>"; };
+		BF734A4B208663CC003CABDA /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		BF734A4D20866806003CABDA /* DengueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengueListViewController.swift; sourceTree = "<group>"; };
+		BF734A5020866E16003CABDA /* DengueListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengueListDataSource.swift; sourceTree = "<group>"; };
+		BF76D0CF20848274001CE7A5 /* Dengue Fever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dengue Fever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF76D0D220848274001CE7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF76D0D720848274001CE7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF76D0D920848274001CE7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF76D0DC20848274001CE7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF76D0DE20848274001CE7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF76D0EC2084920A001CE7A5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF76D0EE2084A72D001CE7A5 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BF76D0F02084A9E8001CE7A5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF76D0F22084AB44001CE7A5 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		BF76D0F52084AD98001CE7A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF76D0F72084B031001CE7A5 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		BF76D0F92084DE81001CE7A5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF76D0CC20848274001CE7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF76D0F62084ADAC001CE7A5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF76D0C620848274001CE7A5 = {
+			isa = PBXGroup;
+			children = (
+				BF76D0D120848274001CE7A5 /* Dengue Fever */,
+				BF76D0D020848274001CE7A5 /* Products */,
+				BF76D0F42084AD97001CE7A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF76D0D020848274001CE7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0CF20848274001CE7A5 /* Dengue Fever.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF76D0D120848274001CE7A5 /* Dengue Fever */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0E9208489B8001CE7A5 /* Others */,
+				BF76D0E820848683001CE7A5 /* V */,
+				BF76D0E72084867D001CE7A5 /* VM */,
+				BF76D0E620848677001CE7A5 /* M */,
+				BF76D0D220848274001CE7A5 /* AppDelegate.swift */,
+				BF76D0D620848274001CE7A5 /* Main.storyboard */,
+				BF734A4020865A78003CABDA /* TableData.storyboard */,
+				BF76D0D920848274001CE7A5 /* Assets.xcassets */,
+				BF76D0DB20848274001CE7A5 /* LaunchScreen.storyboard */,
+				BF76D0DE20848274001CE7A5 /* Info.plist */,
+			);
+			path = "Dengue Fever";
+			sourceTree = "<group>";
+		};
+		BF76D0E620848677001CE7A5 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				BF734A342085AFE0003CABDA /* JSON.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		BF76D0E72084867D001CE7A5 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0F92084DE81001CE7A5 /* ViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		BF76D0E820848683001CE7A5 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0F02084A9E8001CE7A5 /* ViewController.swift */,
+				BF76D0F72084B031001CE7A5 /* Annotation.swift */,
+				BF734A322085A8CA003CABDA /* AnnotationView.swift */,
+				BF734A3A20862FD9003CABDA /* TableViewAlert.swift */,
+				BF734A3E20865898003CABDA /* Button.swift */,
+				BF734A4520865CD6003CABDA /* DengueListHeaderView.xib */,
+				BF734A492086611C003CABDA /* DengueListHeaderView.swift */,
+				BF734A4D20866806003CABDA /* DengueListViewController.swift */,
+				BF5ED2BC2089B4E000F21D35 /* RefreshController.swift */,
+				BF5ED2BE2089B62900F21D35 /* RefreshContent.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		BF76D0E9208489B8001CE7A5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0EC2084920A001CE7A5 /* NetworkManager.swift */,
+				BF76D0EE2084A72D001CE7A5 /* StringExtension.swift */,
+				BF76D0F22084AB44001CE7A5 /* NotificationExtension.swift */,
+				BF734A362085EC7D003CABDA /* ColorExtension.swift */,
+				BF734A3820862100003CABDA /* AlertExtension.swift */,
+				BF734A4320865A9D003CABDA /* StoryboardExtension.swift */,
+				BF734A4720865FFB003CABDA /* ViewsExtension.swift */,
+				BF734A4B208663CC003CABDA /* ViewControllerExtension.swift */,
+				BF734A5020866E16003CABDA /* DengueListDataSource.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BF76D0F42084AD97001CE7A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF76D0F52084AD98001CE7A5 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF76D0CE20848274001CE7A5 /* Dengue Fever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF76D0E120848274001CE7A5 /* Build configuration list for PBXNativeTarget "Dengue Fever" */;
+			buildPhases = (
+				BF76D0CB20848274001CE7A5 /* Sources */,
+				BF76D0CC20848274001CE7A5 /* Frameworks */,
+				BF76D0CD20848274001CE7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dengue Fever";
+			productName = "Dengue Fever";
+			productReference = BF76D0CF20848274001CE7A5 /* Dengue Fever.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF76D0C720848274001CE7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jimmy;
+				TargetAttributes = {
+					BF76D0CE20848274001CE7A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF76D0CA20848274001CE7A5 /* Build configuration list for PBXProject "Dengue Fever" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF76D0C620848274001CE7A5;
+			productRefGroup = BF76D0D020848274001CE7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF76D0CE20848274001CE7A5 /* Dengue Fever */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF76D0CD20848274001CE7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF76D0DD20848274001CE7A5 /* LaunchScreen.storyboard in Resources */,
+				BF734A4220865A78003CABDA /* TableData.storyboard in Resources */,
+				BF734A4620865CD6003CABDA /* DengueListHeaderView.xib in Resources */,
+				BF76D0DA20848274001CE7A5 /* Assets.xcassets in Resources */,
+				BF76D0D820848274001CE7A5 /* Main.storyboard in Resources */,
+				BF5ED2BF2089B62900F21D35 /* RefreshContent.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF76D0CB20848274001CE7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF734A5120866E16003CABDA /* DengueListDataSource.swift in Sources */,
+				BF76D0F32084AB44001CE7A5 /* NotificationExtension.swift in Sources */,
+				BF734A4A2086611C003CABDA /* DengueListHeaderView.swift in Sources */,
+				BF734A4C208663CC003CABDA /* ViewControllerExtension.swift in Sources */,
+				BF734A4420865A9D003CABDA /* StoryboardExtension.swift in Sources */,
+				BF76D0F12084A9E8001CE7A5 /* ViewController.swift in Sources */,
+				BF734A4E20866806003CABDA /* DengueListViewController.swift in Sources */,
+				BF734A3B20862FD9003CABDA /* TableViewAlert.swift in Sources */,
+				BF734A4820865FFB003CABDA /* ViewsExtension.swift in Sources */,
+				BF76D0ED2084920A001CE7A5 /* NetworkManager.swift in Sources */,
+				BF734A352085AFE0003CABDA /* JSON.swift in Sources */,
+				BF76D0EF2084A72D001CE7A5 /* StringExtension.swift in Sources */,
+				BF734A3F20865898003CABDA /* Button.swift in Sources */,
+				BF734A3920862100003CABDA /* AlertExtension.swift in Sources */,
+				BF76D0F82084B031001CE7A5 /* Annotation.swift in Sources */,
+				BF76D0FA2084DE81001CE7A5 /* ViewModel.swift in Sources */,
+				BF76D0D320848274001CE7A5 /* AppDelegate.swift in Sources */,
+				BF5ED2BD2089B4E000F21D35 /* RefreshController.swift in Sources */,
+				BF734A332085A8CA003CABDA /* AnnotationView.swift in Sources */,
+				BF734A372085EC7D003CABDA /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF734A4020865A78003CABDA /* TableData.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF734A4120865A78003CABDA /* Base */,
+			);
+			name = TableData.storyboard;
+			sourceTree = "<group>";
+		};
+		BF76D0D620848274001CE7A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF76D0D720848274001CE7A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF76D0DB20848274001CE7A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF76D0DC20848274001CE7A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF76D0DF20848274001CE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF76D0E020848274001CE7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF76D0E220848274001CE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SLV3B6FU8;
+				INFOPLIST_FILE = "Dengue Fever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaleMosquitoes.Dengue-Fever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF76D0E320848274001CE7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SLV3B6FU8;
+				INFOPLIST_FILE = "Dengue Fever/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaleMosquitoes.Dengue-Fever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF76D0CA20848274001CE7A5 /* Build configuration list for PBXProject "Dengue Fever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF76D0DF20848274001CE7A5 /* Debug */,
+				BF76D0E020848274001CE7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF76D0E120848274001CE7A5 /* Build configuration list for PBXNativeTarget "Dengue Fever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF76D0E220848274001CE7A5 /* Debug */,
+				BF76D0E320848274001CE7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF76D0C720848274001CE7A5 /* Project object */;
+}

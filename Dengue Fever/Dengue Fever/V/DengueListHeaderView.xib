@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DengueListHeaderView" customModule="Dengue_Fever" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="599" height="170"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asV-qh-R0k">
+                    <rect key="frame" x="4" y="4" width="249.5" height="162"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="基隆市"/>
+                    <connections>
+                        <action selector="didSelect:" destination="iN0-l3-epB" eventType="touchUpInside" id="fCk-Ju-w9W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46x-Eh-h8A">
+                    <rect key="frame" x="257.5" y="4" width="166.5" height="162"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didSelect:" destination="iN0-l3-epB" eventType="touchUpInside" id="94v-Bi-xVe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rk1-sE-cez">
+                    <rect key="frame" x="428" y="4" width="167" height="162"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didSelect:" destination="iN0-l3-epB" eventType="touchUpInside" id="uvq-5f-lhC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="asV-qh-R0k" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="4" id="05j-kk-hM0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="asV-qh-R0k" secondAttribute="bottom" constant="4" id="AVF-7S-iQP"/>
+                <constraint firstItem="rk1-sE-cez" firstAttribute="leading" secondItem="46x-Eh-h8A" secondAttribute="trailing" constant="4" id="DY9-r6-Nim"/>
+                <constraint firstItem="46x-Eh-h8A" firstAttribute="centerY" secondItem="rk1-sE-cez" secondAttribute="centerY" id="I4u-6N-KI8"/>
+                <constraint firstItem="asV-qh-R0k" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="IXl-Wo-g8M"/>
+                <constraint firstItem="46x-Eh-h8A" firstAttribute="width" secondItem="rk1-sE-cez" secondAttribute="width" id="Kjw-6A-eDg"/>
+                <constraint firstItem="46x-Eh-h8A" firstAttribute="height" secondItem="asV-qh-R0k" secondAttribute="height" id="W14-mu-gYP"/>
+                <constraint firstItem="46x-Eh-h8A" firstAttribute="leading" secondItem="asV-qh-R0k" secondAttribute="trailing" constant="4" id="Z28-5n-DmS"/>
+                <constraint firstItem="asV-qh-R0k" firstAttribute="centerY" secondItem="46x-Eh-h8A" secondAttribute="centerY" id="c7z-4L-5Mj"/>
+                <constraint firstItem="asV-qh-R0k" firstAttribute="width" secondItem="46x-Eh-h8A" secondAttribute="width" multiplier="1.5" id="kF1-m2-jWN"/>
+                <constraint firstItem="rk1-sE-cez" firstAttribute="height" secondItem="46x-Eh-h8A" secondAttribute="height" id="mCc-Dd-zfz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rk1-sE-cez" secondAttribute="trailing" constant="4" id="qJk-dg-CWY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="femaleButton" destination="rk1-sE-cez" id="BCI-HH-A9j"/>
+                <outlet property="locationButton" destination="asV-qh-R0k" id="hbV-2y-ECU"/>
+                <outlet property="maleButton" destination="46x-Eh-h8A" id="zqv-2I-gLL"/>
+            </connections>
+            <point key="canvasLocation" x="145.5" y="-195"/>
+        </view>
+    </objects>
+</document>
